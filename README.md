@@ -9,16 +9,16 @@ Welcome to my backend learning repository! This collection of projects demonstra
 
 Here’s a list of the projects included in this repository, ordered by complexity:
 
-1.  **[Express-JS](#1-express-js)** - A simple "Hello World" application.
-2.  **[Basic-User-API](#2-basic-user-api)** - A simple API to fetch user data from a JSON file.
+1.  **[ExpressJS](#1-expressjs)** - A simple "Hello World" application.
+2.  **[BasicUserAPI](#2-basicuserapi)** - A simple API to fetch user data from a JSON file.
 3.  **[TodoApp](#3-todoapp)** - A full CRUD application for managing a to-do list with a database connection.
 4.  **[BlogApp](#4-blogapp)** - A more advanced application with posts, likes, and comments.
-5.  **[authapp](#5-authapp)** - A secure application with user authentication and authorization.
-6.  **[File Upload](#6-file-upload)** - A project demonstrating how to handle file uploads to a server and cloud storage.
+5.  **[AuthApp](#5-authapp)** - A secure application with user authentication and authorization.
+6.  **[FileUpload](#6-fileupload)** - A project demonstrating how to handle file uploads to a server and cloud storage.
 
 ---
 
-### 1. Express-JS
+### 1. ExpressJS
 
 * **Description**: This is a foundational "Hello World" application that serves a single static HTML file using Express.js. It's the perfect starting point for understanding the basics of setting up a server.
 * **Technologies Used**: Node.js, Express
@@ -27,7 +27,7 @@ Here’s a list of the projects included in this repository, ordered by complexi
 
 ---
 
-### 2. Basic-User-API
+### 2. BasicUserAPI
 
 * **Description**: This project introduces the concept of routing and handling data. It features a basic API that can retrieve all users or a specific user from a local `data.json` file, demonstrating how to handle simple GET requests.
 * **Technologies Used**: Node.js, Express
@@ -73,7 +73,7 @@ Here’s a list of the projects included in this repository, ordered by complexi
 
 ---
 
-### 5. authapp
+### 5. AuthApp
 
 * **Description**: This project focuses on a critical aspect of backend development: user authentication. It features a secure login and signup system using JSON Web Tokens (JWT) for authentication and `bcrypt` for password hashing. It also includes middleware to protect routes, ensuring that only authenticated users can access them.
 * **Technologies Used**: Node.js, Express, MongoDB, JWT, bcrypt
@@ -90,7 +90,7 @@ Here’s a list of the projects included in this repository, ordered by complexi
 
 ---
 
-### 6. File Upload
+### 6. FileUpload
 
 * **Description**: This project demonstrates how to handle file uploads, a common requirement for many web applications. It allows for uploading files to both a local server and a cloud storage service (Cloudinary), introducing another layer of complexity to backend development.
 * **Technologies Used**: Node.js, Express, MongoDB, Multer, Cloudinary
